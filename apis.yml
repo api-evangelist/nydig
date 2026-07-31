@@ -1,8 +1,24 @@
 aid: nydig
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nydig.png
 name: NYDIG
-description: 'NYDIG is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'NYDIG is a vertically-integrated bitcoin and power company founded in 2017, operating at the
+  intersection of power, compute, and sound money. It develops power infrastructure supporting bitcoin''s
+  proof-of-work security and low-cost energy, and provides institutional-grade financial infrastructure
+  including regulated bitcoin custody, spot and derivatives trading, structuring, and financing. NYDIG was
+  surfaced as a portfolio company of bessemer-venture-partners and added to the API Evangelist network.
+  It exposes no public developer API, developer portal, or API documentation; access is through the
+  authenticated institutional platform at app.nydig.com.'
 url: https://raw.githubusercontent.com/api-evangelist/nydig/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Bitcoin
+- Cryptocurrency
+- Custody
+- Trading
+- Bitcoin Mining
+- Institutional
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://nydig.com/
+- type: Login
+  url: https://app.nydig.com/
+- type: DomainSecurity
+  url: security/nydig-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
