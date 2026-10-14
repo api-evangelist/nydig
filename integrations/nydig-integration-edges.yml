@@ -16,14 +16,14 @@ edges:
     evidence: https://www.nydig.com/legal/licenses
     matched_by: verified-legal-name
     detected_by: sweep-crypto.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
     other_registrations:
     - registered_name: NYDIG Trust Company LLC
       role: limited-purpose-trust-charter
       granted: 2018-11
       evidence: https://www.nydig.com/legal/licenses
   detected_by: sweep-crypto.py
-  first_seen: '2026-10-13'
+  first_seen: '2026-10-14'
 generated: '2026-10-13'
 method: searched
 checked:
